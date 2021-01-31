@@ -1,0 +1,29 @@
+{
+    "name": "dskripchenko/reactphp-worker",
+    "description": "Worker event loop",
+    "license": "MIT",
+    "version": "1.0.0",
+    "homepage": "https://github.com/dskripchenko/reactphp-worker",
+    "keywords": [
+        "reactphp"
+    ],
+    "authors": [
+        {
+            "name": "Denis Skripchenko",
+            "email": "denskrp90@gmail.com"
+        }
+    ],
+    "require": {
+        "react/event-loop": "^1.1.1"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dskripchenko\\ReactphpWorker\\": [
+                "src/"
+            ]
+        }
+    }
+}
